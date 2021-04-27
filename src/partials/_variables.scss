@@ -1,0 +1,21 @@
+
+// Colori del testo
+$color-primary: white;
+$color-secondary: rgb(104, 123, 252);
+$color-tertiary: purple;
+$color-quaternary: black;
+$color-quinary: rgb(94, 93, 93);
+$color-senary: rgb(252, 73, 132);
+$color-septenary: red;
+$color-octonary: rgb(187, 0, 0);
+$color-nonary: orange;
+// $color-denary: ;
+$color-none: rgba(0, 0, 0, 0);
+
+
+// Tutti mixin
+
+@mixin conteiner-center{
+  width: 60%;
+  margin: 0 20%;
+}

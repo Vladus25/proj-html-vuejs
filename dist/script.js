@@ -29,7 +29,7 @@ function initVue() {
         dropdown: ['Full Width', 'With Sidebar', 'Single Post']
       }, {
         info: 'Shop',
-        dropdown: ''
+        dropdown: ['View Shop']
       }]
     },
     methods: {// Funzione per dropdown

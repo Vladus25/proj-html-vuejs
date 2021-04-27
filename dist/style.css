@@ -1,3 +1,12 @@
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.4s ease-out 0s;
+}
+header a:hover {
+  color: #0d7e7e;
+  opacity: 1;
+}
 header nav.nav-one {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -86,15 +95,86 @@ header nav.nav-two div.line-top .display-flex .nav-principal div.buttons i {
 header nav.nav-two div.line-top .display-flex .nav-principal div.buttons .button {
   font-family: "Montserrat", sans-serif;
   padding: 10px 25px;
-  margin: 0 15px;
   border-radius: 100px;
   border: 2px solid;
   transition: all 0.4s ease-out 0s;
+  margin: 0 15px;
 }
 header nav.nav-two div.line-top .display-flex .nav-principal div.buttons .button:hover {
   background-color: #00a6a6;
   border-color: #00a6a6;
   color: #f1f1f1;
+}
+
+main a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.4s ease-out 0s;
+}
+main section.sezione-1 {
+  background-image: url("img/hero-image.png");
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+}
+main section.sezione-1 .sfumatura {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+main section.sezione-1 .sfumatura .lead-customer {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 400px;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width {
+  width: 700px;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width h1 {
+  color: #ffffff;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width h1 b {
+  background-color: #0582835C;
+  padding: 0px 15px 0px 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 30px 0;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width div.container-button {
+  padding-top: 30px;
+  padding-bottom: 321px;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width div.container-button .button-jumbo-1 {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 2px solid;
+  transition: all 0.4s ease-out 0s;
+  background-color: rgba(0, 166, 166, 0.4);
+  border: 2px solid rgba(0, 166, 166, 0.4);
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width div.container-button .button-jumbo-1:hover {
+  background-color: #00a6a6;
+  border-color: #00a6a6;
+  color: #f1f1f1;
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width div.container-button .button-jumbo-2 {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 2px solid;
+  transition: all 0.4s ease-out 0s;
+  border: 2px solid rgba(88, 88, 88, 0.7);
+}
+main section.sezione-1 .sfumatura .lead-customer .slide-width div.container-button .button-jumbo-2:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  border: 2px solid rgba(88, 88, 88, 0.7);
 }
 
 * {
@@ -103,19 +183,8 @@ header nav.nav-two div.line-top .display-flex .nav-principal div.buttons .button
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  transition: all 0.4s ease-out 0s;
-}
-
-a:hover {
-  color: #0d7e7e;
-  opacity: 1;
-}
-
 i {
-  color: black;
+  color: #ffffff;
   transition: all 0.4s ease-out 0s;
 }
 

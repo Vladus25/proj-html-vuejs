@@ -35,6 +35,25 @@ $design-color-5: #e5be92; //Gold Sand
   margin: auto;
 }
 
+@mixin link-hover{
+  color: $design-color-3;
+  opacity: 1;
+}
+
+@mixin link-normal{
+  text-decoration: none;
+  color: $cube-color-1;
+  transition: all 0.4s ease-out 0s;
+}
+
+@mixin button-layout{
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 2px solid;
+  transition: all .4s ease-out 0s;
+}
+
 @mixin button-animation{
   background-color: #00a6a6;
   border-color: #00a6a6;

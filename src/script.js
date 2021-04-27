@@ -29,7 +29,7 @@ function initVue() {
         },
         {
           info: 'Shop',
-          dropdown: ''
+          dropdown: ['View Shop']
         },
       ]
     },

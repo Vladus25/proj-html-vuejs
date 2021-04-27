@@ -15,19 +15,8 @@ body{
   // font-family: 'Montserrat', sans-serif;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-  transition: all 0.4s ease-out 0s;
-}
-
-a:hover{
-  color: $design-color-3;
-  opacity: 1;
-}
-
 i{
-  color: black;
+  color: $cube-color-1;
   transition: all 0.4s ease-out 0s;
 }
 

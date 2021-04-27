@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@100&display=swap" rel="stylesheet"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <!-- MY CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- VueJs -->
@@ -21,7 +21,113 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <div id="app">
 
+      <!-- Header -->
+      <header>
+        <!-- TODO: Fare scomparire prima riga -->
+        <!-- Prima riga di navigazione -->
+        <nav class="nav-one">
+          <div class="blue-line-top">
+            <div class="display-flex">
+
+              <div class="time-nav">
+                <a href="#">
+                  <i class="fas fa-clock"></i>
+                  {{time}}
+                </a>
+              </div>
+
+              <div class="info-nav">
+                <a href="#"><i class="fas fa-phone-alt"></i>{{numberPhone}}</a>
+                <a href="#"><i class="fas fa-envelope"></i>{{email}}</a>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+
+            </div>
+          </div>
+        </nav>
+
+        <!-- Seconda riga di navigazione -->
+        <nav class="nav-two">
+          <div class="line-top">
+            <div class="display-flex">
+
+              <div class="logo-nav">
+                <a href="#"><img src="img/logo.svg" alt="NexGen"></a>
+              </div>
+              <!-- FIXME: Fixare dropdown -->
+              <div class="nav-principal">
+                <ul v-for="(tag, index) in nav" class="list-information">
+                  <li @mouseover="mouseOver()">
+                    <a href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
+                    <ul v-show="active" class="dropdown-menu">
+                      <li  v-for="elem in tag.dropdown"><a href="#">{{elem}}</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <div class="buttons">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                  <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                  <a href="#" class="button">BUY NEXGEN</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </nav>
+
+      </header>
+
+      <!-- Menu -->
+      <main>
+
+        <!-- Sezione 1 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 2 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 3 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 4 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 5 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 6 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 7 -->
+        <section>
+
+        </section>
+
+        <!-- Sezione 8 -->
+        <section>
+
+        </section>
+
+      </main>
+
+    </div>
   </body>
 
 </html>

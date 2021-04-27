@@ -1,21 +1,42 @@
 
-// Colori del testo
-$color-primary: white;
-$color-secondary: rgb(104, 123, 252);
-$color-tertiary: purple;
-$color-quaternary: black;
-$color-quinary: rgb(94, 93, 93);
-$color-senary: rgb(252, 73, 132);
-$color-septenary: red;
-$color-octonary: rgb(187, 0, 0);
-$color-nonary: orange;
-// $color-denary: ;
+// Color none
 $color-none: rgba(0, 0, 0, 0);
 
+// Color cube
+$cube-color-1: #ffffff; //White
+$cube-color-2: #121117; //Woodsmoke
+$cube-color-3: #4e4d51; //Scarpa Flow
+$cube-color-4: #038483; //Blue Lagoon
+$cube-color-5: #a2adae; //Edward
+$cube-color-6: #b0864f; //Dniftwood
+$cube-color-7: #fecc60; //Golde Tainoi
+$cube-color-8: #93fbfb; //Anakiwa
+$cube-color-9: #39c4c6; //Pelorous
+
+
+// Median cut
+$cut-color-1: #e3e7df; //Gray Nurse
+$cut-color-2: #1e2223; //Shark
+$cut-color-3: #706c68; //Flint
+$cut-color-4: #72a2a3; //Sea Nymph
+$cut-color-5: #778a94; //Slate Gray
+
+// Material disegn
+$design-color-1: #9c6f46; //Cape Palliser
+$design-color-2: #a79d8e; //Zorba
+$design-color-3: #0d7e7e; //Surfie Green
+$design-color-4: #24333d; //Ebony Clay
+$design-color-5: #e5be92; //Gold Sand
 
 // Tutti mixin
 
-@mixin conteiner-center{
-  width: 60%;
-  margin: 0 20%;
+@mixin container-center{
+  max-width: 1200px;
+  margin: auto;
+}
+
+@mixin button-animation{
+  background-color: #00a6a6;
+  border-color: #00a6a6;
+  color: #f1f1f1;
 }

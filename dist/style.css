@@ -79,13 +79,23 @@ header nav.nav-two div.line-top .display-flex .nav-principal ul.list-information
   font-size: 12px;
   font-weight: 700;
 }
-header nav.nav-two div.line-top .display-flex .nav-principal ul.list-information li .dropdown-menu:hover {
+header nav.nav-two div.line-top .display-flex .nav-principal ul.list-information li .dropdown-menu {
   position: absolute;
   top: 40px;
   left: -10px;
   color: black;
-  background-color: yellow;
-  width: 150px;
+  background-color: #ffffff;
+}
+header nav.nav-two div.line-top .display-flex .nav-principal ul.list-information li .dropdown-menu li {
+  width: 120px;
+  text-align: center;
+}
+header nav.nav-two div.line-top .display-flex .nav-principal ul.list-information li .dropdown-menu li:hover {
+  background-color: rgba(142, 142, 142, 0.57);
+}
+header nav.nav-two div.line-top .display-flex .nav-principal ul.list-information li .dropdown-menu a {
+  color: black;
+  font-size: 14px;
 }
 header nav.nav-two div.line-top .display-flex .nav-principal div.buttons i {
   line-height: 47px;
@@ -176,7 +186,6 @@ main section.sezione-1 .sfumatura .lead-customer .slide-width div.container-butt
   color: #f1f1f1;
   border: 2px solid rgba(88, 88, 88, 0.7);
 }
-
 * {
   margin: 0;
   padding: 0;

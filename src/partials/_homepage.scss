@@ -95,13 +95,27 @@ header{
                 font-size: 12px;
                 font-weight: 700;
               }
-              .dropdown-menu:hover{
+              .dropdown-menu{
                 position: absolute;
                 top: 40px;
                 left: -10px;
                 color: black;
-                background-color: yellow;
-                width: 150px;
+                background-color: $cube-color-1;
+
+                li{
+                  width: 120px;
+                  text-align: center;
+                }
+
+                li:hover{
+                  background-color: rgba(142, 142, 142, 0.57);
+                }
+
+                a{
+                  color: black;
+                  font-size: 14px;
+                }
+
               }
             }
           }
@@ -130,9 +144,12 @@ header{
 }
 
 main{
+
   a{
     @include link-normal;
   }
+
+  // Sezione 1
   section.sezione-1{
     background-image: url("img/hero-image.png");
     background-size: cover;
@@ -204,6 +221,10 @@ main{
       }
 
     }
+
+  }
+  // Sezione 2
+  section.sezione-2{
 
   }
 }

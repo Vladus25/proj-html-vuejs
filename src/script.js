@@ -5,7 +5,7 @@ function initVue() {
 
     el: '#app',
     data:{
-
+      'indexActive': null,
       'active': false,
       'time': "Open Hours: Mon - Sat - 9:00 - 18:00",
       'numberPhone': "+1 (305) 1234-5678",
@@ -36,10 +36,10 @@ function initVue() {
     methods: {
 
       // Funzione per dropdown
-      // mouseOver: function(){
-      //
-      //   this.active = !this.active;
-      // }
+      mouseOver: function(index){
+        this.indexActive = index;
+        this.active = !this.active;
+      },
 
     }
   })

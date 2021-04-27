@@ -11,6 +11,7 @@ function initVue() {
   new Vue({
     el: '#app',
     data: {
+      'indexActive': null,
       'active': false,
       'time': "Open Hours: Mon - Sat - 9:00 - 18:00",
       'numberPhone': "+1 (305) 1234-5678",
@@ -32,11 +33,12 @@ function initVue() {
         dropdown: ['View Shop']
       }]
     },
-    methods: {// Funzione per dropdown
-      // mouseOver: function(){
-      //
-      //   this.active = !this.active;
-      // }
+    methods: {
+      // Funzione per dropdown
+      mouseOver: function mouseOver(index) {
+        this.indexActive = index;
+        this.active = !this.active;
+      }
     }
   });
 }

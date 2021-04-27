@@ -58,13 +58,13 @@
               <div class="logo-nav">
                 <a href="#"><img src="img/logo.svg" alt="NexGen"></a>
               </div>
-              <!-- FIXME: Fixare dropdown -->
+
               <div class="nav-principal">
                 <ul v-for="(tag, index) in nav" class="list-information">
-                  <li @mouseover="mouseOver()">
-                    <a href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
-                    <ul v-show="active" class="dropdown-menu">
-                      <li  v-for="elem in tag.dropdown"><a href="#">{{elem}}</a></li>
+                  <li>
+                    <a @mouseover="mouseOver(index)" href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
+                    <ul v-show="active && index == indexActive" class="dropdown-menu">
+                      <li v-for="elem in tag.dropdown"><a href="#">{{elem}}</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -102,7 +102,7 @@
         </section>
 
         <!-- Sezione 2 -->
-        <section>
+        <section class="sezione-2">
 
         </section>
 

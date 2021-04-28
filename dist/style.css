@@ -831,6 +831,85 @@ main section.sezione-7 .box-email .email-public a:hover {
   color: #ffffff;
   background-color: #00A6A6;
 }
+main section.sezione-8 {
+  background-color: #F1F1FF;
+}
+main section.sezione-8 .box-unit {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+  display: flex;
+}
+main section.sezione-8 .box-unit .know-unit {
+  flex-basis: 33%;
+  padding-right: 50px;
+}
+main section.sezione-8 .box-unit .know-unit h2 {
+  color: #21333E;
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 40px 0 30px 0;
+}
+main section.sezione-8 .box-unit .know-unit h2 b {
+  color: #058283;
+  background-color: #00A6A626;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+main section.sezione-8 .box-unit .know-unit p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #606D75;
+  line-height: 1.5;
+}
+main section.sezione-8 .box-unit .unit-information {
+  flex-basis: 30%;
+  padding-right: 50px;
+}
+main section.sezione-8 .box-unit .unit-information ul li {
+  list-style: none;
+  margin: 25px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+main section.sezione-8 .box-unit .unit-information ul li i {
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 25px;
+  color: #058283;
+  background-color: #00A6A626;
+  padding: 10px;
+  margin-right: 5px;
+}
+main section.sezione-8 .box-unit .unit-information ul li span {
+  color: #058283;
+}
+main section.sezione-8 .box-unit .unit-information ul li:hover i {
+  background-color: #058283;
+  color: #ffffff;
+}
+main section.sezione-8 .box-unit .unit-information ul li:hover span {
+  color: #00a6a6;
+}
+main section.sezione-8 .box-unit .unit-information ul .map-view {
+  width: 47%;
+  background-color: #00A6A626;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+main section.sezione-8 .box-unit .unit-information ul .map-view a {
+  color: #058283;
+}
+main section.sezione-8 .box-unit .unit-information ul .map-view:hover {
+  background-color: #00a6a6;
+  border-color: #00a6a6;
+  color: #f1f1f1;
+}
+main section.sezione-8 .box-unit .unit-information ul .map-view:hover a {
+  color: #ffffff;
+}
 
 * {
   margin: 0;

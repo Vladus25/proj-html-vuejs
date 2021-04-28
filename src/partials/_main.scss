@@ -754,4 +754,105 @@ main{
       }
     }
   }
+
+  // Sezione con informazioni di telefono, email...
+  section.sezione-8{
+    background-color: #F1F1FF;
+
+    .box-unit{
+      @include container-center;
+      padding: 100px 0;
+      display: flex;
+
+      .know-unit{
+        flex-basis: 33%;
+        padding-right:50px;
+
+        h2{
+          color: #21333E;
+          font-size: 3rem;
+          font-weight: 800;
+          padding: 40px 0 30px 0;
+
+          b{
+            color: #058283;
+            background-color: #00A6A626;
+            padding: 5px 15px;
+            border-radius: 10px;
+          }
+        }
+
+        p{
+          font-size: 1rem;
+          font-weight: 400;
+          color: #606D75;
+          line-height: 1.5;
+        }
+      }
+
+      .unit-information{
+        flex-basis: 30%;
+        padding-right: 50px;
+
+        ul{
+
+          li{
+            list-style: none;
+            margin: 25px 0;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+
+            i{
+              font-size: 20px;
+              line-height: 20px;
+              border-radius: 25px;
+              color: #058283;
+              background-color: #00A6A626;
+              padding: 10px;
+              margin-right: 5px;
+            }
+
+            span{
+              color: #058283;
+            }
+
+          }
+
+          li:hover{
+
+            i{
+              background-color: #058283;
+              color: $color-1;
+            }
+
+            span{
+              color: #00a6a6;
+            }
+          }
+
+          .map-view{
+            width: 47%;
+            background-color: #00A6A626;
+            border-radius: 25px;
+            text-align: center;
+            padding: 10px 0px;
+
+            a{
+              color:$color-6;
+            }
+
+          }
+
+          .map-view:hover{
+            @include button-animation;
+
+            a{
+              color: $color-1;
+            }
+          }
+        }
+      }
+    }
+  }
 }

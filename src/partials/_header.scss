@@ -5,10 +5,6 @@ header{
     @include link-normal;
   }
 
-  a:hover{
-    @include link-hover;
-  }
-
   // Prima riga di navigazione
   nav.nav-one{
     font-family: 'Inter', sans-serif;
@@ -30,6 +26,14 @@ header{
         .time-nav{
           line-height: 50px;
 
+          a:hover{
+            @include link-hover;
+
+            i{
+              @include link-hover;
+            }
+          }
+
           i{
             font-size: 1rem;
           }
@@ -40,6 +44,14 @@ header{
 
           a{
             padding: 0 10px;
+          }
+
+          a:hover{
+            @include link-hover;
+
+            i{
+              @include link-hover;
+            }
           }
 
           i{
@@ -115,6 +127,16 @@ header{
                   font-size: 14px;
                 }
 
+              }
+            }
+
+            li:hover{
+              a{
+                @include link-hover;
+
+                i{
+                  @include link-hover;
+                }
               }
             }
           }

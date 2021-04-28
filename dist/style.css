@@ -237,7 +237,7 @@ main section.sezione-3 .background-img-left {
   top: 0;
   left: 599px;
   width: 952px;
-  height: 635px;
+  height: 626px;
   background-image: url("img/about-3.jpg");
   background-size: 50% auto;
   background-attachment: fixed;
@@ -365,6 +365,151 @@ main section.sezione-3 .the-company .container-analysis-2 .expertise p {
   font-weight: 400;
   line-height: 1.5;
   color: #606D75;
+}
+main section.sezione-4 {
+  background-color: #111117;
+}
+main section.sezione-4 .container-service {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+}
+main section.sezione-4 .container-service .excellent-service h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #F1F1F1;
+}
+main section.sezione-4 .container-service .excellent-service h2 b {
+  background-color: #0582835C;
+  padding: 0px 15px 0px 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+main section.sezione-4 .container-service .excellent-service .space-between {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+main section.sezione-4 .container-service .excellent-service .space-between .sp-1 {
+  flex-basis: 75%;
+}
+main section.sezione-4 .container-service .excellent-service .space-between .sp-1 p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8F93A5;
+}
+main section.sezione-4 .container-service .excellent-service .space-between .sp-2 {
+  flex-basis: 25%;
+}
+main section.sezione-4 .container-service .excellent-service .space-between .sp-2 div {
+  display: flex;
+  justify-content: flex-end;
+}
+main section.sezione-4 .container-service .excellent-service .space-between .sp-2 div a {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 2px solid;
+  transition: all 0.4s ease-out 0s;
+  color: #8F93A5;
+}
+main section.sezione-4 .container-service .excellent-service .space-between .sp-2 a:hover {
+  background-color: #00a6a6;
+  border-color: #00a6a6;
+  color: #f1f1f1;
+}
+main section.sezione-4 .container-service .container-read-more svg {
+  width: 45px;
+  height: 45px;
+  font-size: 45px;
+  line-height: 45px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex {
+  width: 31.5%;
+  background-color: #FFFFFF09;
+  border-radius: 10px 10px 10px 10px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more {
+  padding: 35px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #F1F1F1;
+  padding: 20px 0;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8F93A5;
+  width: 250px;
+  padding-bottom: 20px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more a {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #BEC1CE;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #05828380;
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more a:hover {
+  background-color: #00a6a6;
+  border-color: #00a6a6;
+  color: #f1f1f1;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex {
+  width: 31.5%;
+  background-color: #FFFFFF09;
+  border-radius: 10px 10px 10px 10px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more {
+  padding: 35px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #F1F1F1;
+  padding: 20px 0;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8F93A5;
+  width: 250px;
+  padding-bottom: 20px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more a {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #BEC1CE;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #05828380;
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more a:hover {
+  background-color: #00a6a6;
+  border-color: #00a6a6;
+  color: #f1f1f1;
 }
 
 * {

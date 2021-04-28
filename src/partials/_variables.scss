@@ -11,22 +11,26 @@ $color-5: #0d7e7e;
 
 // Tutti mixin
 
+// Contenitore che mette tutto al centro
 @mixin container-center{
   max-width: 1200px;
   margin: auto;
 }
 
+// Quando entri con mouse cambia colore
 @mixin link-hover{
   color: $color-5;
   opacity: 1;
 }
 
+// Link con animazione e senza decoration
 @mixin link-normal{
   text-decoration: none;
   color: $color-1;
   transition: all 0.4s ease-out 0s;
 }
 
+// layout del buttone
 @mixin button-layout{
   font-family: 'Montserrat', sans-serif;
   padding: 10px 25px;
@@ -35,12 +39,14 @@ $color-5: #0d7e7e;
   transition: all .4s ease-out 0s;
 }
 
+// Animazione del buttone
 @mixin button-animation{
   background-color: #00a6a6;
   border-color: #00a6a6;
   color: #f1f1f1;
 }
 
+// Icone colore e dimensione
 @mixin i-size-color{
   width: 25px;
   height: 25px;
@@ -50,10 +56,18 @@ $color-5: #0d7e7e;
   fill: #058283;
 }
 
+// Testo del p con colore e dimensione
 @mixin p-size-color{
   margin-top: 20px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #606D75;
+}
+
+// Background del testo principale
+@mixin back-text-color{
+  background-color: #0582835C;
+  padding: 0px 15px 0px 15px;
+  border-radius: 10px 10px 10px 10px;
 }

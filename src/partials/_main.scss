@@ -155,7 +155,7 @@ main{
           font-weight: 800;
 
           b{
-            color: #058283;
+            color: $color-6;
             background-color: $color-4;
             padding: 5px 15px 5px 15px;
             border-radius: 10px 10px 10px 10px;
@@ -418,6 +418,66 @@ main{
             }
           }
         }
+      }
+    }
+  }
+
+  section.sezione-5{
+    background-color: #F1F1FF;
+
+    .container-center-pricing{
+      @include container-center;
+      padding: 100px 25px 100px 25px;
+
+      h2{
+        text-align: center;
+        color: #21333E;
+        font-size: 3rem;
+        font-weight: 800;
+
+        b{
+          background-color: #00A6A626;
+          padding: 5px 15px 5px 15px;
+          border-radius: 10px 10px 10px 10px;
+          color: $color-6;
+        }
+      }
+
+      p{
+        text-align: center;
+        color: #606D75;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 35px 170px;
+      }
+
+      .pricing-services{
+        display: flex;
+        justify-content: space-between;
+
+        // Pricing di box
+        .box-pricing{
+          width: 32%;
+          background-color: $color-1;
+          border-radius: 10px 10px 10px 10px;
+
+          .pricing-padding{
+            padding: 35px;
+
+            .img-svg{
+              text-align: center;
+              
+              svg{
+                width: 45px;
+                height: 45px;
+                font-size: 45px;
+                line-height: 45px;
+              }
+            }
+          }
+        }
+
       }
     }
   }

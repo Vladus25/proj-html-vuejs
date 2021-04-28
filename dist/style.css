@@ -511,6 +511,55 @@ main section.sezione-4 .container-service .container-read-more .read-more-2 .rea
   border-color: #00a6a6;
   color: #f1f1f1;
 }
+main section.sezione-5 {
+  background-color: #F1F1FF;
+}
+main section.sezione-5 .container-center-pricing {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 25px 100px 25px;
+}
+main section.sezione-5 .container-center-pricing h2 {
+  text-align: center;
+  color: #21333E;
+  font-size: 3rem;
+  font-weight: 800;
+}
+main section.sezione-5 .container-center-pricing h2 b {
+  background-color: #00A6A626;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px 10px 10px 10px;
+  color: #058283;
+}
+main section.sezione-5 .container-center-pricing p {
+  text-align: center;
+  color: #606D75;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 35px 170px;
+}
+main section.sezione-5 .container-center-pricing .pricing-services {
+  display: flex;
+  justify-content: space-between;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing {
+  width: 32%;
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding {
+  padding: 35px;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .img-svg {
+  text-align: center;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .img-svg svg {
+  width: 45px;
+  height: 45px;
+  font-size: 45px;
+  line-height: 45px;
+}
 
 * {
   margin: 0;

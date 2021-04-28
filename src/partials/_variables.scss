@@ -72,3 +72,33 @@ $color-6: #058283;
   padding: 0px 15px 0px 15px;
   border-radius: 10px 10px 10px 10px;
 }
+
+// Sezione 6
+@mixin box-all-news{
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  background-size: cover;
+  height: 370px;
+  width: 380px;
+}
+
+@mixin box-all-p{
+  align-self: flex-end;
+  padding: 35px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #F1F1F1;
+  z-index: 100;
+}
+
+@mixin blue-background-hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 370px;
+  width: 380px;
+  background-color: rgba(0, 4, 32, 0.59);
+  border-radius: 10px;
+}

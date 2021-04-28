@@ -4,7 +4,7 @@ main{
     @include link-normal;
   }
 
-  // Sezione 1
+  // Sezione di jumbo strategy
   section.sezione-1{
     background-image: url("img/hero-image.png");
     background-size: cover;
@@ -76,7 +76,8 @@ main{
     }
 
   }
-  // Sezione 2
+
+  // Sezione di info azienda
   section.sezione-2{
     background-color: $color-3;
 
@@ -109,14 +110,14 @@ main{
             background-color: $color-4;
             width: 60px;
             padding: 13px 12px 17px 14px;
-            border-radius: 100px 100px 100px 100px;
+            border-radius: 100px;
           }
 
           div{
             background-color: $color-4;
             width: 60px;
             padding: 10px 15px 13px 14px;
-            border-radius: 100px 100px 100px 100px;
+            border-radius: 100px;
 
             img{
               width: 30px;
@@ -128,7 +129,7 @@ main{
     }
   }
 
-  // Sezione 3
+  // Sezione di storia del azienda
   section.sezione-3{
     @include container-center;
     position: relative;
@@ -259,6 +260,7 @@ main{
     }
   }
 
+  // Sezione Excellence in Services
   section.sezione-4{
     background-color: #111117;
 
@@ -422,6 +424,7 @@ main{
     }
   }
 
+  // Sezione di Prezzo del servizio
   section.sezione-5{
     background-color: #F1F1FF;
 
@@ -475,7 +478,7 @@ main{
               padding: 7.5px 15px 7.5px 10px;
               font-size: 0.8rem;
             }
-            
+
             .img-svg{
               text-align: center;
               position: relative;
@@ -551,6 +554,134 @@ main{
           }
         }
 
+      }
+    }
+  }
+
+  // Sezione di ultimi novita
+  section.sezione-6{
+    background-color: #111117;
+
+    .container-news{
+      @include container-center;
+      padding: 100px 0;
+
+      .latest-news{
+        color: $color-1;
+        text-align: center;
+
+        h2{
+          font-size: 3rem;
+          font-weight: 800;
+
+          b{
+            background-color: #0582835C;
+            padding: 0px 15px;
+            border-radius: 10px;
+          }
+        }
+      }
+
+      .list-news{
+        padding: 35px 0;
+
+        ul{
+          display: flex;
+          justify-content: center;
+
+          li{
+            list-style: none;
+            line-height: 3rem;
+
+            a{
+              font-size: 1.1rem;
+              font-weight: 500;
+              color: #8F93A5;
+              padding: 0 15px;
+            }
+
+            a:hover{
+              @include link-hover;
+            }
+          }
+
+          .back-color{
+            background-color: #0582835C;
+            border-radius: 10px;
+          }
+        }
+      }
+
+      .box-news{
+        display: flex;
+        justify-content: space-between;
+
+        .box-news-public-1{
+          @include box-all-news;
+          background-image: url("img/news-1.jpg");
+
+          p{
+            @include box-all-p;
+          }
+
+          .blue-background{
+            @include blue-background-hover;
+          }
+        }
+
+        .box-news-public-2{
+          @include box-all-news;
+          background-image: url("img/news-5.jpg");
+
+          p{
+            @include box-all-p;
+
+          }
+
+          .blue-background{
+            @include blue-background-hover;
+          }
+        }
+
+        .box-news-public-3{
+          @include box-all-news;
+          background-image: url("img/news-4.jpg");
+
+          p{
+            @include box-all-p;
+          }
+
+          .blue-background{
+            @include blue-background-hover;
+          }
+        }
+      }
+
+      .numbers-news{
+        padding-top: 50px;
+        ul{
+          display: flex;
+          font-size: 1.3rem;
+          font-weight: 500;
+
+          li{
+            list-style: none;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            padding-top: 5px;
+          }
+
+          a:hover{
+            @include link-hover;
+          }
+
+          .select-number{
+            background-color: #058283;
+            border-radius: 10px;
+            color: $color-1;
+          }
+        }
       }
     }
   }

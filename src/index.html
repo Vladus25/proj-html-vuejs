@@ -62,7 +62,7 @@
               <div class="nav-principal">
                 <ul v-for="(tag, index) in nav" class="list-information">
                   <li>
-                    <a @mouseover="mouseOver(index)" href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
+                    <a @click="mouseOver(index)" href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
                     <ul v-show="active && index == indexActive" class="dropdown-menu">
                       <li v-for="elem in tag.dropdown"><a href="#">{{elem}}</a></li>
                     </ul>
@@ -426,8 +426,58 @@
         </section>
 
         <!-- Sezione 6 -->
-        <section>
+        <section class="sezione-6">
+          <div class="container-news">
 
+            <div class="latest-news">
+              <h2>Latest <b>News</h2>
+            </div>
+
+            <div class="list-news">
+              <ul>
+                <li class="back-color"><a href="#">ALL</a></li>
+                <li><a href="#">INSTITUTIONAL</a></li>
+                <li><a href="#">SOCIAL</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">INNOVATION</a></li>
+                <li><a href="#">ENVIRONMENT</a></li>
+                <li><a href="#">TECHNOLOGY</a></li>
+              </ul>
+            </div>
+
+            <div class="box-news">
+
+              <a href="#">
+                <div class="box-news-public-1">
+                  <p>Increasing creativity is possible for everyone</p>
+                  <div class="blue-background"></div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="box-news-public-2">
+                  <p>David Cooper tells about the opening of the new office in Baltimore</p>
+                  <div class="blue-background"></div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="box-news-public-3">
+                  <p>Tips for having a good relationship at work</p>
+                  <div class="blue-background"></div>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="numbers-news">
+              <ul>
+                <li class="select-number"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <!-- Sezione 7 -->

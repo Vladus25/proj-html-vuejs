@@ -443,7 +443,7 @@ main{
         }
       }
 
-      p{
+      .help-pricing{
         text-align: center;
         color: #606D75;
         font-size: 1rem;
@@ -461,18 +461,91 @@ main{
           width: 32%;
           background-color: $color-1;
           border-radius: 10px 10px 10px 10px;
+          position: relative;
 
           .pricing-padding{
             padding: 35px;
 
+            .most-popular{
+              position: absolute;
+              top: 0;
+              left: 0;
+              background-color: $color-6;
+              color: $color-1;
+              padding: 7.5px 15px 7.5px 10px;
+              font-size: 0.8rem;
+            }
+            
             .img-svg{
               text-align: center;
-              
+              position: relative;
+
               svg{
                 width: 45px;
                 height: 45px;
                 font-size: 45px;
                 line-height: 45px;
+              }
+
+              i{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 25px;
+                color: $color-6;
+              }
+            }
+
+            .text-pricing{
+              text-align: center;
+              padding: 15px 0;
+
+              h4{
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #21333E;
+              }
+            }
+
+            .pricing-dollar{
+              text-align: center;
+              padding: 15px 0;
+              color: $color-6;
+
+              h3{
+                font-size: 2rem;
+                font-weight: 300;
+
+                b{
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .list-services{
+
+              ul{
+
+                li{
+                  display: flex;
+                  justify-content: space-between;
+                  list-style: none;
+                  padding: 10px 0;
+
+                  p{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    color: #606D75;
+                  }
+
+                  i{
+                    color: $color-6;
+                    width: 20px;
+                    height: 20px;
+                    font-size: 18px;
+                    line-height: 18px;
+                  }
+                }
               }
             }
           }

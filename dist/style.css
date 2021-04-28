@@ -531,7 +531,7 @@ main section.sezione-5 .container-center-pricing h2 b {
   border-radius: 10px 10px 10px 10px;
   color: #058283;
 }
-main section.sezione-5 .container-center-pricing p {
+main section.sezione-5 .container-center-pricing .help-pricing {
   text-align: center;
   color: #606D75;
   font-size: 1rem;
@@ -547,18 +547,75 @@ main section.sezione-5 .container-center-pricing .pricing-services .box-pricing 
   width: 32%;
   background-color: #ffffff;
   border-radius: 10px 10px 10px 10px;
+  position: relative;
 }
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding {
   padding: 35px;
 }
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .most-popular {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #058283;
+  color: #ffffff;
+  padding: 7.5px 15px 7.5px 10px;
+  font-size: 0.8rem;
+}
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .img-svg {
   text-align: center;
+  position: relative;
 }
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .img-svg svg {
   width: 45px;
   height: 45px;
   font-size: 45px;
   line-height: 45px;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .img-svg i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  color: #058283;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .text-pricing {
+  text-align: center;
+  padding: 15px 0;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .text-pricing h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #21333E;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .pricing-dollar {
+  text-align: center;
+  padding: 15px 0;
+  color: #058283;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .pricing-dollar h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .pricing-dollar h3 b {
+  font-weight: 700;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .list-services ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px 0;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .list-services ul li p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #606D75;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .list-services ul li i {
+  color: #058283;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 * {

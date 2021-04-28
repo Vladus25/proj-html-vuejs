@@ -254,8 +254,8 @@ main section.sezione-3 .the-company .company-analysis h2 {
 main section.sezione-3 .the-company .company-analysis h2 b {
   color: #058283;
   background-color: #00A6A626;
-  padding: 5px 15px 5px 15px;
-  border-radius: 10px 10px 10px 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
 }
 main section.sezione-3 .the-company .company-analysis p {
   font-size: 1rem;
@@ -431,7 +431,7 @@ main section.sezione-4 .container-service .container-read-more .read-more-1 {
 main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex {
   width: 31.5%;
   background-color: #FFFFFF09;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more {
   padding: 35px;
@@ -457,7 +457,7 @@ main section.sezione-4 .container-service .container-read-more .read-more-1 .rea
   font-weight: 500;
   color: #BEC1CE;
   border-style: solid;
-  border-width: 2px 2px 2px 2px;
+  border-width: 2px;
   border-color: #05828380;
   padding: 10px 25px;
   border-radius: 100px;
@@ -475,7 +475,7 @@ main section.sezione-4 .container-service .container-read-more .read-more-2 {
 main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex {
   width: 31.5%;
   background-color: #FFFFFF09;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more {
   padding: 35px;
@@ -501,7 +501,7 @@ main section.sezione-4 .container-service .container-read-more .read-more-2 .rea
   font-weight: 500;
   color: #BEC1CE;
   border-style: solid;
-  border-width: 2px 2px 2px 2px;
+  border-width: 2px;
   border-color: #05828380;
   padding: 10px 25px;
   border-radius: 100px;
@@ -517,7 +517,7 @@ main section.sezione-5 {
 main section.sezione-5 .container-center-pricing {
   max-width: 1200px;
   margin: auto;
-  padding: 100px 25px 100px 25px;
+  padding: 100px 25px;
 }
 main section.sezione-5 .container-center-pricing h2 {
   text-align: center;
@@ -527,8 +527,8 @@ main section.sezione-5 .container-center-pricing h2 {
 }
 main section.sezione-5 .container-center-pricing h2 b {
   background-color: #00A6A626;
-  padding: 5px 15px 5px 15px;
-  border-radius: 10px 10px 10px 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
   color: #058283;
 }
 main section.sezione-5 .container-center-pricing .help-pricing {
@@ -546,7 +546,7 @@ main section.sezione-5 .container-center-pricing .pricing-services {
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing {
   width: 32%;
   background-color: #ffffff;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   position: relative;
 }
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding {
@@ -771,6 +771,65 @@ main section.sezione-6 .container-news .numbers-news ul .select-number {
   background-color: #058283;
   border-radius: 10px;
   color: #ffffff;
+}
+main section.sezione-7 {
+  background-color: #ffffff;
+}
+main section.sezione-7 .box-email {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+  display: flex;
+}
+main section.sezione-7 .box-email .email-public {
+  flex-basis: 50%;
+}
+main section.sezione-7 .box-email .email-public h2 {
+  color: #21333E;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-top: 55px;
+}
+main section.sezione-7 .box-email .email-public h2 b {
+  color: #058283;
+  background-color: #00A6A626;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+main section.sezione-7 .box-email .email-public p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #606D75;
+  margin-top: 25px;
+  line-height: 1.5;
+}
+main section.sezione-7 .box-email .email-public {
+  flex-basis: 50%;
+}
+main section.sezione-7 .box-email .email-public input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00A6A626;
+  color: #606D75;
+  padding: 15px 20px;
+  margin: 10px 0px;
+}
+main section.sezione-7 .box-email .email-public a {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 15px 20px;
+  margin: 10px 0px;
+  color: #F1F1F1;
+  background-color: #058283;
+  text-align: center;
+}
+main section.sezione-7 .box-email .email-public a:hover {
+  color: #ffffff;
+  background-color: #00A6A6;
 }
 
 * {

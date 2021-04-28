@@ -2,31 +2,12 @@
 // Color none
 $color-none: rgba(0, 0, 0, 0);
 
-// Color cube
-$cube-color-1: #ffffff; //White
-$cube-color-2: #121117; //Woodsmoke
-$cube-color-3: #4e4d51; //Scarpa Flow
-$cube-color-4: #038483; //Blue Lagoon
-$cube-color-5: #a2adae; //Edward
-$cube-color-6: #b0864f; //Dniftwood
-$cube-color-7: #fecc60; //Golde Tainoi
-$cube-color-8: #93fbfb; //Anakiwa
-$cube-color-9: #39c4c6; //Pelorous
-
-
-// Median cut
-$cut-color-1: #e3e7df; //Gray Nurse
-$cut-color-2: #1e2223; //Shark
-$cut-color-3: #706c68; //Flint
-$cut-color-4: #72a2a3; //Sea Nymph
-$cut-color-5: #778a94; //Slate Gray
-
-// Material disegn
-$design-color-1: #F1F1FF; //Cape Palliser
-$design-color-2: #a79d8e; //Zorba
-$design-color-3: #0d7e7e; //Surfie Green
-$design-color-4: #24333d; //Ebony Clay
-$design-color-5: #e5be92; //Gold Sand
+// Color
+$color-1: #ffffff;
+$color-2: black;
+$color-3: #F1F1FF;
+$color-4: #00A6A626;
+$color-5: #0d7e7e;
 
 // Tutti mixin
 
@@ -36,13 +17,13 @@ $design-color-5: #e5be92; //Gold Sand
 }
 
 @mixin link-hover{
-  color: $design-color-3;
+  color: $color-5;
   opacity: 1;
 }
 
 @mixin link-normal{
   text-decoration: none;
-  color: $cube-color-1;
+  color: $color-1;
   transition: all 0.4s ease-out 0s;
 }
 
@@ -58,4 +39,21 @@ $design-color-5: #e5be92; //Gold Sand
   background-color: #00a6a6;
   border-color: #00a6a6;
   color: #f1f1f1;
+}
+
+@mixin i-size-color{
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  line-height: 25px;
+  color: #058283;
+  fill: #058283;
+}
+
+@mixin p-size-color{
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #606D75;
 }

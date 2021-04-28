@@ -16,11 +16,11 @@ body{
 }
 
 i{
-  color: $cube-color-1;
+  color: $color-1;
   transition: all 0.4s ease-out 0s;
 }
 
 i:hover{
-  color: $design-color-3;
+  color: $color-5;
   opacity: 1;
 }

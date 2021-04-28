@@ -227,6 +227,145 @@ main section.sezione-2 div.container-element div.elements .basis-elem div {
 main section.sezione-2 div.container-element div.elements .basis-elem div img {
   width: 30px;
 }
+main section.sezione-3 {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+main section.sezione-3 .background-img-left {
+  position: absolute;
+  top: 0;
+  left: 599px;
+  width: 952px;
+  height: 635px;
+  background-image: url("img/about-3.jpg");
+  background-size: 50% auto;
+  background-attachment: fixed;
+}
+main section.sezione-3 .the-company {
+  padding: 100px 45px 100px 25px;
+  width: 50%;
+}
+main section.sezione-3 .the-company .company-analysis h2 {
+  color: #21333E;
+  font-size: 3rem;
+  font-weight: 800;
+}
+main section.sezione-3 .the-company .company-analysis h2 b {
+  color: #058283;
+  background-color: #00A6A626;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+main section.sezione-3 .the-company .company-analysis p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #606D75;
+  margin-top: 25px;
+  line-height: 1.5;
+}
+main section.sezione-3 .the-company .container-analysis-1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main section.sezione-3 .the-company .container-analysis-1 .tradition {
+  flex-basis: 50%;
+}
+main section.sezione-3 .the-company .container-analysis-1 .tradition a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #21333E;
+}
+main section.sezione-3 .the-company .container-analysis-1 .tradition i {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  line-height: 25px;
+  color: #058283;
+  fill: #058283;
+}
+main section.sezione-3 .the-company .container-analysis-1 .tradition p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #606D75;
+}
+main section.sezione-3 .the-company .container-analysis-1 .security {
+  flex-basis: 50%;
+}
+main section.sezione-3 .the-company .container-analysis-1 .security a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #21333E;
+}
+main section.sezione-3 .the-company .container-analysis-1 .security i {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  line-height: 25px;
+  color: #058283;
+  fill: #058283;
+}
+main section.sezione-3 .the-company .container-analysis-1 .security p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #606D75;
+}
+main section.sezione-3 .the-company .container-analysis-2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main section.sezione-3 .the-company .container-analysis-2 .certificate {
+  flex-basis: 50%;
+}
+main section.sezione-3 .the-company .container-analysis-2 .certificate a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #21333E;
+}
+main section.sezione-3 .the-company .container-analysis-2 .certificate i {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  line-height: 25px;
+  color: #058283;
+  fill: #058283;
+}
+main section.sezione-3 .the-company .container-analysis-2 .certificate p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #606D75;
+}
+main section.sezione-3 .the-company .container-analysis-2 .expertise {
+  flex-basis: 50%;
+}
+main section.sezione-3 .the-company .container-analysis-2 .expertise a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #21333E;
+}
+main section.sezione-3 .the-company .container-analysis-2 .expertise i {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  line-height: 25px;
+  color: #058283;
+  fill: #058283;
+}
+main section.sezione-3 .the-company .container-analysis-2 .expertise p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #606D75;
+}
 
 * {
   margin: 0;

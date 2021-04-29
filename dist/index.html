@@ -25,9 +25,9 @@
 
       <!-- Header Vue -->
       <header>
-        <!-- TODO: Fare scomparire prima riga -->
+
         <!-- Prima riga di navigazione -->
-        <nav class="nav-one">
+        <nav class="nav-one" :class="{ 'hidden-navbar': !showNavbar }">
           <div class="blue-line-top">
             <div class="display-flex">
 
@@ -51,7 +51,7 @@
         </nav>
 
         <!-- Seconda riga di navigazione -->
-        <nav class="nav-two">
+        <nav class="nav-two" :class="{ 'background-image-nav' : showNavbar == false}">
           <div class="line-top">
             <div class="display-flex">
 
@@ -62,7 +62,7 @@
               <div class="nav-principal">
                 <ul v-for="(tag, index) in nav" class="list-information">
                   <li>
-                    <a @click="mouseOver(index)" href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
+                    <a @mouseOver="mouseOver(index)" href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
                     <ul v-show="active && index == indexActive" class="dropdown-menu">
                       <li v-for="elem in tag.dropdown"><a href="#">{{elem}}</a></li>
                     </ul>

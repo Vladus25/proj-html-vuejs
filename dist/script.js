@@ -16,6 +16,10 @@ function initVue() {
       'time': "Open Hours: Mon - Sat - 9:00 - 18:00",
       'numberPhone': "+1 (305) 1234-5678",
       'email': "hello@example.com",
+      'adress': "Main Avenue, 987",
+      'buy': "BUY NEXGEN",
+      'copyright': "2021 NEXGEN is Proudly Powered by Codings.",
+      'info': "Built to the smallest detail with a focus on feature availability.",
       'nav': [{
         info: 'Demos',
         dropdown: ['Home 1', 'Home 2', 'Home 3', 'Home 4', 'Home 5', 'Home 6', 'Home 7', 'Home 8', 'Home 9', 'Home 10']
@@ -31,6 +35,16 @@ function initVue() {
       }, {
         info: 'Shop',
         dropdown: ['View Shop']
+      }],
+      'footer': [{
+        name: 'Company',
+        services: ['Institutional', 'Social & Events', 'Innovation', 'Environment', 'Technology']
+      }, {
+        name: 'Services',
+        services: ['Audit & Assurance', 'Financial Advisory', 'Analytics and M&A', 'Middle Marketing', 'Legal Consulting']
+      }, {
+        name: 'Consultants',
+        services: ['David Cooper', 'Oliver Jones', 'Emma Lopez', 'T. Johnson', 'Jacob Hill Jr']
       }]
     },
     methods: {

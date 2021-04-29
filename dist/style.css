@@ -931,6 +931,148 @@ main section.sezione-8 .box-unit .unit-information ul .map-view:hover a {
   color: #ffffff;
 }
 
+footer {
+  font-family: "Inter", sans-serif;
+  color: #8f93a5;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.4s ease-out 0s;
+}
+footer section.footer-sect {
+  background-color: #111117;
+}
+footer section.footer-sect .box-footer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+}
+footer section.footer-sect .box-footer .info-footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 {
+  flex-basis: 25%;
+  padding-right: 40px;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen img {
+  height: 45px;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 20px 20px 20px 0;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li {
+  list-style: none;
+  padding: 10px 0;
+  transition: all 0.4s ease-out 0s;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li a {
+  color: #8f93a5;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li a i {
+  color: #8f93a5;
+  margin-right: 5px;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li a span {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li .buy-button {
+  display: block;
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 10px 0;
+  color: #8f93a5;
+  border: 2px solid #8f93a5;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  transition: all 0.4s ease-out 0s;
+  margin-top: 10px;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li .buy-button:hover {
+  color: #ffffff;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: #058283;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li:hover i {
+  color: #0d7e7e;
+  opacity: 1;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-1 .buy-nexgen ul li:hover span {
+  color: #0d7e7e;
+  opacity: 1;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 {
+  flex-basis: 75%;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 .nexgen-information {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 .nexgen-information .box-ul-info {
+  flex-basis: 31%;
+  background-color: #ffffff06;
+  border-radius: 10px;
+  padding: 30px;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 .nexgen-information .box-ul-info li {
+  list-style: none;
+  padding: 10px 0;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 .nexgen-information .box-ul-info li h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 .nexgen-information .box-ul-info li a {
+  color: #8f93a5;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+footer section.footer-sect .box-footer .info-footer .box-info-2 .nexgen-information .box-ul-info li a:hover {
+  color: #0d7e7e;
+  opacity: 1;
+}
+footer div.footer-pie {
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+footer div.footer-pie .footer-copyright {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer div.footer-pie .footer-copyright a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #8f93a5;
+}
+footer div.footer-pie .footer-copyright a i {
+  color: #8f93a5;
+  padding-left: 30px;
+}
+footer div.footer-pie .footer-copyright a i:hover {
+  color: #0d7e7e;
+  opacity: 1;
+}
+footer div.footer-pie .footer-copyright a:hover {
+  color: #0d7e7e;
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;

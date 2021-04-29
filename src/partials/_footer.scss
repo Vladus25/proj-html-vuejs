@@ -1,0 +1,169 @@
+
+// Footer Vue
+footer{
+  font-family: 'Inter', sans-serif;
+  color: #8f93a5;
+  a{
+    @include link-normal;
+  }
+
+  section.footer-sect{
+    background-color: #111117;
+
+    .box-footer{
+      @include container-center;
+      padding: 100px 0;
+
+      .info-footer{
+        display: flex;
+        justify-content: space-between;
+
+        .box-info-1{
+          flex-basis: 25%;
+          padding-right: 40px;
+
+          .buy-nexgen{
+            img{
+              height: 45px;
+            }
+
+            p{
+              font-size: 1rem;
+              font-weight: 400;
+              line-height: 1.5;
+              padding: 20px 20px 20px 0;
+            }
+
+            ul{
+
+              li{
+                list-style: none;
+                padding: 10px 0;
+                transition: all .4s ease-out 0s;
+
+                a{
+                  color: #8f93a5;
+
+                  i{
+                    color: #8f93a5;
+                    margin-right: 5px;
+                  }
+
+                  span{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                  }
+                }
+
+                .buy-button{
+                  display: block;
+                  font-size: 18px;
+                  border-radius: 25px;
+                  padding: 10px 0;
+                  color: #8f93a5;
+                  border: 2px solid #8f93a5;
+                  text-align: center;
+                  font-size: 1rem;
+                  font-weight: 500;
+                  line-height: 1.2;
+                  transition: all .4s ease-out 0s;
+                  margin-top: 10px;
+                }
+
+                .buy-button:hover{
+                  color: $color-1;
+                  opacity: 1;
+                  background-color: rgba(0, 0, 0, 0.6);
+                  border-color: $color-6;
+                }
+              }
+
+              li:hover{
+                i{
+                  @include link-hover;
+                }
+
+                span{
+                  @include link-hover;
+                }
+              }
+            }
+          }
+        }
+
+        .box-info-2{
+          flex-basis: 75%;
+
+          .nexgen-information{
+            display: flex;
+            justify-content: space-between;
+
+            .box-ul-info{
+              flex-basis: 31%;
+              background-color: #ffffff06;
+              border-radius: 10px;
+              padding: 30px;
+
+              li{
+                list-style: none;
+                padding: 10px 0;
+
+                h3{
+                  color: $color-1;
+                  font-size: 1.5rem;
+                  font-weight: 600;
+                  line-height: 1.2;
+                  margin-bottom: 10px;
+                }
+
+                a{
+                  color: #8f93a5;
+                  font-size: 1rem;
+                  font-weight: 400;
+                  line-height: 1.5;
+                }
+
+                a:hover{
+                  @include link-hover;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Footer pie di pagina
+  div.footer-pie{
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.02);
+
+    .footer-copyright{
+      @include container-center;
+      display: flex;
+      justify-content: space-between;
+
+      a{
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #8f93a5;
+
+        i{
+          color: #8f93a5;
+          padding-left: 30px;
+        }
+
+        i:hover{
+          @include link-hover;
+        }
+      }
+
+      a:hover{
+        @include link-hover;
+      }
+    }
+  }
+}

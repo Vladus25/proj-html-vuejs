@@ -23,7 +23,7 @@
   <body>
     <div id="app">
 
-      <!-- Header -->
+      <!-- Header Vue -->
       <header>
         <!-- TODO: Fare scomparire prima riga -->
         <!-- Prima riga di navigazione -->
@@ -558,6 +558,78 @@
 
       </main>
 
+      <!-- Footer Vue -->
+      <footer>
+
+        <!-- Footer info -->
+        <section class="footer-sect">
+          <div class="box-footer">
+            <div class="info-footer">
+
+              <!-- Parte di sinistra con informazioni e di buy nexgen -->
+              <div class="box-info-1">
+                <div class="buy-nexgen">
+                  <a href="#"><img src="img/logo.svg" alt="NexGen"></a>
+                  <p>{{info}}</p>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>{{numberPhone}}</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-envelope"></i>
+                        <span>{{email}}</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>{{adress}}</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="buy-button">{{buy}}</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Generato 3 box con vue 'info-nexgen' -->
+              <div class="box-info-2">
+                <div class="nexgen-information">
+                  <ul v-for="(section, index) in footer" class="box-ul-info" >
+                    <li>
+                      <h3>{{section.name}}</h3>
+                      <ul>
+                        <li v-for="elem in section.services"><a href="#">{{elem}}</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pie Footer -->
+          <div class="footer-pie">
+            <div class="footer-copyright">
+
+              <div class="">
+                <a href="#">&copy; {{copyright}}</a>
+              </div>
+
+              <div class="">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
     </div>
   </body>
 

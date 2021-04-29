@@ -226,16 +226,17 @@ main section.sezione-2 div.container-element {
   margin: auto;
 }
 main section.sezione-2 div.container-element div.elements {
-  padding: 120px 0;
   display: flex;
   justify-content: space-between;
 }
 main section.sezione-2 div.container-element div.elements .basis-elem {
+  margin: 120px 0;
   flex-basis: 31.5%;
   padding: 35px;
   border-radius: 10px;
   height: 280px;
   background-color: #ffffff;
+  transition: all 0.4s ease-out 0s;
 }
 main section.sezione-2 div.container-element div.elements .basis-elem h2 {
   color: rgba(18, 18, 18, 0.8);
@@ -258,6 +259,9 @@ main section.sezione-2 div.container-element div.elements .basis-elem div {
 }
 main section.sezione-2 div.container-element div.elements .basis-elem div img {
   width: 30px;
+}
+main section.sezione-2 div.container-element div.elements .basis-elem:hover {
+  margin: 110px 0;
 }
 main section.sezione-3 {
   max-width: 1200px;
@@ -458,12 +462,13 @@ main section.sezione-4 .container-service .container-read-more svg {
 main section.sezione-4 .container-service .container-read-more .read-more-1 {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
 }
 main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex {
   width: 31.5%;
   background-color: #FFFFFF09;
   border-radius: 10px;
+  margin-top: 30px;
+  transition: all 0.4s ease-out 0s;
 }
 main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex .padding-more {
   padding: 35px;
@@ -499,15 +504,19 @@ main section.sezione-4 .container-service .container-read-more .read-more-1 .rea
   border-color: #00a6a6;
   color: #f1f1f1;
 }
+main section.sezione-4 .container-service .container-read-more .read-more-1 .read-more-flex:hover {
+  margin-top: 20px;
+}
 main section.sezione-4 .container-service .container-read-more .read-more-2 {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
 }
 main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex {
   width: 31.5%;
   background-color: #FFFFFF09;
   border-radius: 10px;
+  margin-top: 30px;
+  transition: all 0.4s ease-out 0s;
 }
 main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex .padding-more {
   padding: 35px;
@@ -543,6 +552,9 @@ main section.sezione-4 .container-service .container-read-more .read-more-2 .rea
   border-color: #00a6a6;
   color: #f1f1f1;
 }
+main section.sezione-4 .container-service .container-read-more .read-more-2 .read-more-flex:hover {
+  margin-top: 20px;
+}
 main section.sezione-5 {
   background-color: #F1F1FF;
 }
@@ -569,7 +581,7 @@ main section.sezione-5 .container-center-pricing .help-pricing {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  margin: 35px 170px;
+  margin: 35px 170px 0 170px;
 }
 main section.sezione-5 .container-center-pricing .pricing-services {
   display: flex;
@@ -580,6 +592,8 @@ main section.sezione-5 .container-center-pricing .pricing-services .box-pricing 
   background-color: #ffffff;
   border-radius: 10px;
   position: relative;
+  margin-top: 35px;
+  transition: all 0.4s ease-out 0s;
 }
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding {
   padding: 35px;
@@ -609,6 +623,24 @@ main section.sezione-5 .container-center-pricing .pricing-services .box-pricing 
   right: 0;
   font-size: 25px;
   color: #058283;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .img-svg i:hover {
+  -webkit-animation-name: pulse-icon;
+          animation-name: pulse-icon;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 main section.sezione-5 .container-center-pricing .pricing-services .box-pricing .pricing-padding .text-pricing {
   text-align: center;
@@ -648,6 +680,9 @@ main section.sezione-5 .container-center-pricing .pricing-services .box-pricing 
   height: 20px;
   font-size: 18px;
   line-height: 18px;
+}
+main section.sezione-5 .container-center-pricing .pricing-services .box-pricing:hover {
+  margin-top: 25px;
 }
 main section.sezione-6 {
   background-color: #111117;

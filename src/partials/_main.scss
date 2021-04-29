@@ -86,16 +86,17 @@ main{
       @include container-center;
 
       div.elements{
-        padding: 120px 0;
         display: flex;
         justify-content: space-between;
 
         .basis-elem{
+          margin: 120px 0;
           flex-basis: 31.5%;
           padding: 35px;
           border-radius: 10px;
           height: 280px;
           background-color: $color-1;
+          transition: all 0.4s ease-out 0s;
 
           h2{
             color: rgba(18, 18, 18, 0.8);
@@ -124,6 +125,10 @@ main{
             }
 
           }
+        }
+
+        .basis-elem:hover{
+          margin: 110px 0;
         }
       }
     }
@@ -326,12 +331,13 @@ main{
         .read-more-1{
           display: flex;
           justify-content: space-between;
-          padding-top: 30px;
 
           .read-more-flex{
             width: 31.5%;
             background-color: #FFFFFF09;
             border-radius: 10px;
+            margin-top: 30px;
+            transition: all 0.4s ease-out 0s;
 
             .padding-more{
               padding: 35px;
@@ -370,17 +376,22 @@ main{
               }
             }
           }
+
+          .read-more-flex:hover{
+            margin-top: 20px;
+          }
         }
 
         .read-more-2{
           display: flex;
           justify-content: space-between;
-          padding-top: 30px;
 
           .read-more-flex{
             width: 31.5%;
             background-color: #FFFFFF09;
             border-radius: 10px;
+            margin-top: 30px;
+            transition: all 0.4s ease-out 0s;
 
             .padding-more{
               padding: 35px;
@@ -418,6 +429,10 @@ main{
                 @include button-animation;
               }
             }
+          }
+
+          .read-more-flex:hover{
+            margin-top: 20px;
           }
         }
       }
@@ -452,7 +467,7 @@ main{
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5;
-        margin: 35px 170px;
+        margin: 35px 170px 0 170px;
       }
 
       .pricing-services{
@@ -465,6 +480,8 @@ main{
           background-color: $color-1;
           border-radius: 10px;
           position: relative;
+          margin-top: 35px;
+          transition: all 0.4s ease-out 0s;
 
           .pricing-padding{
             padding: 35px;
@@ -554,6 +571,9 @@ main{
           }
         }
 
+        .box-pricing:hover{
+          margin-top: 25px;
+        }
       }
     }
   }

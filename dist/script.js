@@ -58,6 +58,7 @@ function initVue() {
       viewportMeta.name = 'viewport';
       viewportMeta.content = 'width=device-width, initial-scale=1';
       document.head.appendChild(viewportMeta);
+      console.log(this.lastScrollPosition);
     },
     beforeDestroy: function beforeDestroy() {
       window.removeEventListener('scroll', this.onScroll);
@@ -79,6 +80,7 @@ function initVue() {
 
         this.showNavbar = window.pageYOffset < this.lastScrollPosition;
         this.lastScrollPosition = window.pageYOffset;
+        console.log(this.lastScrollPosition);
       }
     }
   });

@@ -3,6 +3,7 @@ header{
 
   a{
     @include link-normal;
+    color: #bec1ce;
   }
 
   // Prima riga di navigazione
@@ -38,6 +39,7 @@ header{
 
           i{
             font-size: 1rem;
+            color: #bec1ce;
           }
         }
 
@@ -46,6 +48,10 @@ header{
 
           a{
             padding: 0 10px;
+          }
+
+          .fix-position{
+            padding-right: 10px;
           }
 
           a:hover{
@@ -57,8 +63,8 @@ header{
           }
 
           i{
-            padding: 0 10px;
             font-size: 1rem;
+            color: #bec1ce;
           }
         }
 
@@ -119,6 +125,7 @@ header{
                 margin: 0 0 0 0.3rem;
                 font-size: 12px;
                 font-weight: 700;
+                color: #bec1ce;
               }
               .dropdown-menu{
                 position: absolute;
@@ -161,6 +168,11 @@ header{
               line-height:47px;
               font-size: 16px;
               padding: 0 15px;
+              color: #bec1ce;
+            }
+
+            i:hover{
+              @include link-hover;
             }
 
             .button{

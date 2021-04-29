@@ -27,7 +27,7 @@
       <header>
 
         <!-- Prima riga di navigazione -->
-        <nav class="nav-one" :class="{ 'hidden-navbar': !showNavbar }">
+        <nav class="nav-one" :class="{ 'hidden-navbar': lastScrollPosition != 0 }">
           <div class="blue-line-top">
             <div class="display-flex">
 
@@ -39,11 +39,11 @@
               </div>
 
               <div class="info-nav">
-                <a href="#"><i class="fas fa-phone-alt"></i>{{numberPhone}}</a>
-                <a href="#"><i class="fas fa-envelope"></i>{{email}}</a>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin-in"></i>
+                <a href="#"><i class="fas fa-phone-alt fix-position"></i>{{numberPhone}}</a>
+                <a href="#"><i class="fas fa-envelope fix-position"></i>{{email}}</a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
               </div>
 
             </div>
@@ -51,7 +51,7 @@
         </nav>
 
         <!-- Seconda riga di navigazione -->
-        <nav class="nav-two" :class="{ 'background-image-nav' : showNavbar == false}">
+        <nav class="nav-two" :class="{ 'background-image-nav' : lastScrollPosition != 0}">
           <div class="line-top">
             <div class="display-flex">
 

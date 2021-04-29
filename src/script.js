@@ -55,15 +55,16 @@ function initVue() {
       ],
     },
     mounted () {
-      this.lastScrollPosition = window.pageYOffset
-      window.addEventListener('scroll', this.onScroll)
-      const viewportMeta = document.createElement('meta')
-      viewportMeta.name = 'viewport'
-      viewportMeta.content = 'width=device-width, initial-scale=1'
-      document.head.appendChild(viewportMeta)
+      this.lastScrollPosition = window.pageYOffset;
+      window.addEventListener('scroll', this.onScroll);
+      const viewportMeta = document.createElement('meta');
+      viewportMeta.name = 'viewport';
+      viewportMeta.content = 'width=device-width, initial-scale=1';
+      document.head.appendChild(viewportMeta);
+      console.log(this.lastScrollPosition);
     },
     beforeDestroy () {
-      window.removeEventListener('scroll', this.onScroll)
+      window.removeEventListener('scroll', this.onScroll);
     },
     methods: {
 
@@ -74,13 +75,14 @@ function initVue() {
       },
       onScroll () {
       if (window.pageYOffset < 0) {
-        return
+        return;
       }
       if (Math.abs(window.pageYOffset - this.lastScrollPosition) < OFFSET) {
-        return
+        return;
       }
-      this.showNavbar = window.pageYOffset < this.lastScrollPosition
-      this.lastScrollPosition = window.pageYOffset
+      this.showNavbar = window.pageYOffset < this.lastScrollPosition;
+      this.lastScrollPosition = window.pageYOffset;
+      console.log(this.lastScrollPosition);
       }
     },
 

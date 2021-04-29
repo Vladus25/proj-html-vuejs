@@ -70,7 +70,7 @@ function initVue() {
       // Funzione per dropdown
       clickOn: function(index){
         this.indexActive = index;
-        this.active = false;
+        // this.active = false;
         this.active = !this.active;
       },
       onScroll () {

@@ -59,10 +59,12 @@
                 <a href="#"><img src="img/logo.svg" alt="NexGen"></a>
               </div>
 
+              <!-- Generato con Vue -->
               <div class="nav-principal">
                 <ul v-for="(tag, index) in nav" class="list-information">
                   <li>
-                    <a @mouseOver="mouseOver(index)" href="#">{{tag.info}}<i class="fas fa-chevron-down"></i></a>
+                    <span class="fix-link" @click="clickOn(index)" href="#">{{tag.info}}</span>
+                    <i class="fas fa-chevron-down"></i>
                     <ul v-show="active && index == indexActive" class="dropdown-menu">
                       <li v-for="elem in tag.dropdown"><a href="#">{{elem}}</a></li>
                     </ul>
@@ -88,10 +90,10 @@
         <!-- Sezione 1 -->
         <section class="sezione-1">
           <div class="sfumatura">
-            <div class="lead-customer">
-              <div class="slide-width">
-                <h1>Lead ~ <b>Customer</b></h1>
-                <p>Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
+              <div class="lead-customer">
+                <div class="slide-width">
+                  <h1>Lead ~ <b>Customer</b></h1>
+                  <p>Successful strategies require data analysis, creativity and customer focus, taking advantage of the latest technologies to offer excellent services.</p>
                 <div class="container-button">
                   <a href="#" class="button-jumbo-1">GET IN TOUCH</a>
                   <a href="#" class="button-jumbo-2">READ MORE</a>

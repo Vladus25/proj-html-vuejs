@@ -121,6 +121,16 @@ header{
               list-style: none;
               padding: 0 15px;
 
+              span{
+                cursor: pointer;
+                color: #bec1ce;
+              }
+
+              span:hover{
+                @include link-hover;
+                transition: all 0.4s ease-out 0s;
+              }
+
               i{
                 margin: 0 0 0 0.3rem;
                 font-size: 12px;
@@ -133,6 +143,7 @@ header{
                 left: -10px;
                 color: $color-2;
                 background-color: $color-1;
+                transition: all 0.4s ease-out 0s;
 
                 li{
                   width: 135px;
@@ -144,7 +155,7 @@ header{
                 }
 
                 a{
-                  color: black;
+                  color: black !important;
                   font-size: 14px;
                 }
 
@@ -155,9 +166,9 @@ header{
               a{
                 @include link-hover;
 
-                i{
-                  @include link-hover;
-                }
+              }
+              i{
+                @include link-hover;
               }
             }
           }

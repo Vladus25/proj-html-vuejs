@@ -169,11 +169,7 @@ main{
         }
 
         p{
-          font-size: 1rem;
-          font-weight: 400;
-          color: #606D75;
-          margin-top: 25px;
-          line-height: 1.5;
+          @include p-short;
         }
       }
 
@@ -358,17 +354,7 @@ main{
               }
 
               a{
-                display: inline-block;
-                text-align: center;
-                width: 300px;
-                font-size: 1rem;
-                font-weight: 500;
-                color: #BEC1CE;
-                border-style: solid;
-                border-width: 2px;
-                border-color: #05828380;
-                padding: 10px 25px;
-                border-radius: 100px;
+                @include link-short;
               }
 
               a:hover{
@@ -412,17 +398,7 @@ main{
               }
 
               a{
-                display: inline-block;
-                text-align: center;
-                width: 300px;
-                font-size: 1rem;
-                font-weight: 500;
-                color: #BEC1CE;
-                border-style: solid;
-                border-width: 2px;
-                border-color: #05828380;
-                padding: 10px 25px;
-                border-radius: 100px;
+                @include link-short;
               }
 
               a:hover{
@@ -733,11 +709,7 @@ main{
         }
 
         p{
-          font-size: 1rem;
-          font-weight: 400;
-          color: #606D75;
-          margin-top: 25px;
-          line-height: 1.5;
+          @include p-short;
         }
       }
 

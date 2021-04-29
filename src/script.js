@@ -61,7 +61,6 @@ function initVue() {
       viewportMeta.name = 'viewport';
       viewportMeta.content = 'width=device-width, initial-scale=1';
       document.head.appendChild(viewportMeta);
-      console.log(this.lastScrollPosition);
     },
     beforeDestroy () {
       window.removeEventListener('scroll', this.onScroll);
@@ -69,8 +68,9 @@ function initVue() {
     methods: {
 
       // Funzione per dropdown
-      mouseOver: function(index){
+      clickOn: function(index){
         this.indexActive = index;
+        this.active = false;
         this.active = !this.active;
       },
       onScroll () {
@@ -82,7 +82,6 @@ function initVue() {
       }
       this.showNavbar = window.pageYOffset < this.lastScrollPosition;
       this.lastScrollPosition = window.pageYOffset;
-      console.log(this.lastScrollPosition);
       }
     },
 

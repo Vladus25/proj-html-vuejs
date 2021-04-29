@@ -102,3 +102,24 @@ $color-6: #058283;
   background-color: rgba(0, 4, 32, 0.59);
   border-radius: 10px;
 }
+
+@mixin link-short{
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #BEC1CE;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #05828380;
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+@mixin p-short{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #606D75;
+  margin-top: 25px;
+  line-height: 1.5;
+}

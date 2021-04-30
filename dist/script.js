@@ -65,8 +65,8 @@ function initVue() {
     methods: {
       // Funzione per dropdown
       clickOn: function clickOn(index) {
-        this.indexActive = index;
-        this.active = false;
+        this.indexActive = index; // this.active = false;
+
         this.active = !this.active;
       },
       onScroll: function onScroll() {
